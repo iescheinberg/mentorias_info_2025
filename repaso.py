@@ -74,7 +74,7 @@
 #     print("no contiene a")
 
 # 10. Crear un programa que pida usuario y contraseña, en caso de ser incorrectas, volver a pedir.
-USUARIO_VALIDO = "Info"
+""" USUARIO_VALIDO = "Info"
 CONTRASENA_VALIDA = "1234"
 
 
@@ -86,6 +86,38 @@ while True:
         print(f"Acceso concedido Bienvenido {usuario}!")
         break
     else:
-        print("Usuario / contraseña incorrectos. Intentalo de nuevo.")
+        print("Usuario / contraseña incorrectos. Intentalo de nuevo.") """
 
 # Modificar este ejercicio ahora con numero de intentos validos.
+
+
+# Hoja de ejercicios - Estructuras de datos
+# 5-Crear un set/conjunto con los números del 1 al 10 y mostrar el número más grande en el conjunto.
+""" numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+print(numeros)
+ """
+
+# 6- Crear un set/conjunto con los números impares del 1 al 10 y mostrar el número de elementos en el conjunto.
+""" numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+impares = set()
+
+for numero in numeros:
+    if numero % 2 != 0:
+        impares.add(numero)
+print(impares) """
+
+# 1-Crear un diccionario con los nombres de tres frutas y sus respectivos precios y mostrar el diccionario completo.
+""" frutas = {
+    "Manzana" : 3500.5,
+    "Naranja" : 2500.68,
+    "Banana" : 2800.34
+}
+for fruta, precio in frutas.items():
+    print(f"Fruta: {fruta}, Precio ${precio}") """
+
+
+# 9-Crear una lista con los nombres de tres países y ordenar la lista en orden alfabético. Mostrar la lista resultante.
+numeros = [2, 6, 1, 7, 3, 9]
+ordenados = sorted(numeros)
+print(ordenados)
+print(numeros)
